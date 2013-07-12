@@ -34,7 +34,8 @@ header h1{
 
 #feature {
     width: 52.083333%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    float: left;
 }
 
 
@@ -44,6 +45,7 @@ img {
 /*Left Sidebar*/
 
 #left-sidebar{
+    clear: both;
     float: left;
     width: 21.527777%; /*186px;*/
     background: #79BD9A;
@@ -82,3 +84,51 @@ footer{
     background: #3B8686;
     clear: both;
 }
+
+/*--------Media Queries------------------------------*/
+
+/*----Ipad landscape-----*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/*----Ipad portrait-----*/
+@media screen and (min-width: 479px) and (max-width: 768px){
+    #feature, .sidebar, #left-sidebar, #right-sidebar, #main{
+        float: none;
+        clear: both;
+        margin: 10px auto;
+        font-size: 0.750em;
+    }
+    #left-sidebar, #right-sidebar, #main{
+        width: 80%;
+
+    }
+}
+
+/*----Iphone landscape-----*/
+@media screen and (min-width: 400px) and (max-width: 480px){
+    #feature, .sidebar, #main{
+        font-size: 0.750em;
+    }
+   #feature, #left-sidebar{
+       float: left;
+   }
+    #feature{
+        width: 50%;
+    }
+
+    #left-sidebar{
+        clear: none;
+        width: 47%;
+    }
+}
+
+/*----Iphone Portrait-----*/
+@media screen and (min-width: 320px) and (max-width: 400px){
+
+}
+
+
+
+
