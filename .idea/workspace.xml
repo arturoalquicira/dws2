@@ -27,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.89507157">
+            <state line="50" column="0" selection-start="2848" selection-end="2848" vertical-scroll-proportion="-23.458334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab1/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="0" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0">
+            <state line="90" column="0" selection-start="1290" selection-end="1290" vertical-scroll-proportion="2.0673814">
               <folding />
             </state>
           </provider>
@@ -179,6 +179,21 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -320,16 +335,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1/css/style.css">
+    <entry file="file://$PROJECT_DIR$/lab1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0">
+        <state line="50" column="0" selection-start="2848" selection-end="2848" vertical-scroll-proportion="-23.458334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1/index.html">
+    <entry file="file://$PROJECT_DIR$/lab1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.89507157">
+        <state line="90" column="0" selection-start="1290" selection-end="1290" vertical-scroll-proportion="2.0673814">
           <folding />
         </state>
       </provider>
