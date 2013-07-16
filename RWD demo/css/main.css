@@ -1,0 +1,120 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 960px;
+	font: 100%/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 15px 20px 0 20px;
+}
+
+h1{
+	font-size: 2.25em; /*36px*/
+}
+
+h1 a{
+	font-size: 0.555555556em; /* 20px/36px */
+	font-weight: normal;
+	color: #999;
+}
+
+h2{
+	font-size: 1.8125em; /*29px*/
+}
+
+h3{
+	font-size: 22px;
+}
+
+p {
+	font-size: 16px;
+	padding: 0 20px;
+}
+
+img{
+	max-width: 100%;
+}
+
+#wrapper {
+	margin: auto;
+	width: 90%;
+}
+
+#header {
+	background: #5174d5;
+}
+
+#sidebar {
+	background-color: #e3e3e3;
+	float: left;
+	width: 38.22916667%; /*367px*/
+}
+
+#main {
+	background-color: #a9a9a9;
+	float: left;
+	width: 61.77083333%; /*593px*/
+}
+
+#footer {
+	background-color: #666;
+	clear: both;
+}
+
+#sidebar p{
+	margin: 16px 1.36239782%; /* 5px/367px */
+}
+
+#main p {
+	margin: 16px 8.4745576271%; /* 5px/593px */
+}
+#header p, #footer p {
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+
+/*--------Media Queries------------------------------*/
+
+/*----Tablet landscape-----*/
+@media screen and (min-width: 915px) and (max-width: 959px){
+	body{
+		background: lime;
+	}
+}
+
+
+/*----Tablet portrait-----*/
+@media screen and (min-width: 815px) and (max-width: 914px){
+	body{
+		background: fuchsia;
+	}
+	
+	#sidebar, #main{
+	width: 50%;
+		
+	}
+}
+/*----Tablet general-----*/
+@media screen and (min-width: 515px) and (max-width: 814px){
+	body{
+		background: orange;
+	}
+	
+	#sidebar, #main{
+	width: 100%;
+	float: none;	
+	}
+	
+	#main{
+		overflow: hidden;
+	}
+	img{
+		float: left;
+	}
+}
+
+
+
